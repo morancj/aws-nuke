@@ -1,0 +1,14 @@
+pkgbase = aws-nuke
+	pkgdesc = Nuke a whole AWS account and delete all its resources.
+	pkgver = 2.14.0
+	pkgrel = 1
+	url = https://github.com/rebuy-de/aws-nuke
+	arch = x86_64
+	license = MIT
+	provides = aws-nuke
+	options = !strip
+	source = aws-nuke-2.14.0.tar.gz::https://github.com/rebuy-de/aws-nuke/releases/download/v2.14.0/aws-nuke-v2.14.0-linux-amd64.tar.gz
+	sha512sums = 166fbcab3a4b8077b599e7aaecf95157dc313846d1fe616f6726af41c50b562074efe72c32609a077a3731eb10ba61d726420a896b9d419f38c534a9bb35b87a
+
+pkgname = aws-nuke
+
